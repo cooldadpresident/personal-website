@@ -1,6 +1,78 @@
 @import url("https://fonts.googleapis.com/css2?family=Jersey+10&display=swap");
 body {
-  font-family: "Jersey 10", sans-serif;
-  font-weight: 400;
+  font-family: "Jersey 20", sans-serif;
+  font-weight: bold;
   font-style: normal;
+  color: darkorchid;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+  color: coral;
+  text-shadow: 3px 5px 8px #666666;
+}
+#logo {
+  height: 40px;
+  margin: auto 0 auto 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url(https://skarpsitedotcom.files.wordpress.com/2023/10/screenshot-2023-10-27-at-10-31-52-edit-your-own-logo-logoai.com_.png?w=60&h=39)
+    no-repeat;
+  background-size: 50px 59px;
+}
+article {
+  padding: 50px 50px;
+}
+
+.contact-button {
+  background-color: blueviolet;
+}
+
+.contact-button:hover {
+  filter: brightness(115%) contrast(85%);
+  border: 0;
+}
+
+html {
+  background-color: bisque;
+}
+
+body > header {
+  height: 100%;
+  width: 50%;
+  background-color: chocolate;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0;
+}
+
+nav ul {
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+nav ul li {
+  padding: 0 25px;
+  margin: 0 5px;
+  font-size: lem;
+  line-height: 4, 3em;
+}
+
+nav ul a {
+  color: white;
+  padding: 8px 0;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav ul a:hover
+
